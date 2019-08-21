@@ -7,7 +7,7 @@ extend = root.extend = (hash1, hash2) ->
 extend root,
   config:
     host: "localhost"
-    port: "7442"
+    port: "7443"
     timeout: 5000
 
   makeIdempotent: (func) ->
